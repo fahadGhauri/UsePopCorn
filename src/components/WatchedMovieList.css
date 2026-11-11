@@ -1,0 +1,29 @@
+.list.list-watched {
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.list-watched li {
+  display: grid;
+  grid-template-columns: 4rem 1fr 0.5fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 1.6rem 3.2rem;
+  border-bottom: 1px solid var(--color-background-700);
+}
+
+.btn-delete {
+  height: 2rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-red);
+  color: var(--color-text);
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: var(--color-red-dark);
+}

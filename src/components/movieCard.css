@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list.list-movies {
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.list-movies li {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 1.6rem 3.2rem;
+  border-bottom: 1px solid var(--color-background-700);
+  transition: background-color 0.3s;
+}
+
+.list-movies li:hover {
+  background-color: var(--color-background-700);
+  cursor: pointer;
+}

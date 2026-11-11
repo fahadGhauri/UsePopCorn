@@ -1,0 +1,20 @@
+.summary {
+  background-color: var(--color-background-700);
+  border-radius: 0.9rem;
+  padding: 2rem 2.4rem;
+  box-shadow: var(--shadow-md);
+}
+
+.summary h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.summary div {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
